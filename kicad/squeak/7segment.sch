@@ -1,0 +1,3063 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 3
+Title "Squeak"
+Date "2020-11-20"
+Rev "v1.0"
+Comp "www.2-0.dk"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Display_Character:CC56-12CGKWA U5
+U 1 1 5F5182CB
+P 3550 1300
+F 0 "U5" H 4650 1700 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 1600 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 700 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 1330 50  0001 C CNN
+	1    3550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U6
+U 1 1 5F519ACA
+P 3550 2550
+F 0 "U6" H 4650 2950 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 2850 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 1950 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 2580 50  0001 C CNN
+	1    3550 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U1
+U 1 1 5F525734
+P 1400 1800
+F 0 "U1" H 1550 2850 50  0000 C CNN
+F 1 "MAX7219" H 1600 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1350 1850 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1450 1650 50  0001 C CNN
+	1    1400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 2250 2400 2250
+Wire Wire Line
+	2400 2250 2400 1000
+Wire Wire Line
+	2450 2350 2350 2350
+Wire Wire Line
+	2350 2350 2350 1100
+Wire Wire Line
+	2450 2450 2300 2450
+Wire Wire Line
+	2300 2450 2300 1200
+Wire Wire Line
+	2450 2550 2250 2550
+Wire Wire Line
+	2250 2550 2250 1300
+Wire Wire Line
+	2450 2650 2200 2650
+Wire Wire Line
+	2200 2650 2200 1400
+Wire Wire Line
+	2450 2750 2150 2750
+Wire Wire Line
+	2150 2750 2150 1500
+Wire Wire Line
+	2450 2850 2100 2850
+Wire Wire Line
+	2100 2850 2100 1600
+Wire Wire Line
+	2450 2950 2050 2950
+Wire Wire Line
+	2050 2950 2050 1700
+Wire Wire Line
+	2000 2200 2000 3100
+Wire Wire Line
+	2000 3100 4700 3100
+Wire Wire Line
+	4750 3150 1950 3150
+Wire Wire Line
+	4750 1850 4750 1400
+Wire Wire Line
+	4800 1500 4800 1900
+Wire Wire Line
+	4850 1600 4850 1950
+Wire Wire Line
+	4900 1700 4900 2000
+Wire Wire Line
+	2450 1000 2400 1000
+Connection ~ 2400 1000
+Wire Wire Line
+	2450 1100 2350 1100
+Connection ~ 2350 1100
+Wire Wire Line
+	2450 1200 2300 1200
+Connection ~ 2300 1200
+Wire Wire Line
+	2450 1300 2250 1300
+Connection ~ 2250 1300
+Wire Wire Line
+	2450 1400 2200 1400
+Connection ~ 2200 1400
+Wire Wire Line
+	2450 1500 2150 1500
+Connection ~ 2150 1500
+Wire Wire Line
+	2450 1600 2100 1600
+Connection ~ 2100 1600
+Wire Wire Line
+	2450 1700 2050 1700
+Connection ~ 2050 1700
+Wire Wire Line
+	1800 2200 2000 2200
+Wire Wire Line
+	1800 2300 1950 2300
+Wire Wire Line
+	1950 2300 1950 3150
+Wire Wire Line
+	1900 3200 1900 2400
+Wire Wire Line
+	1900 2400 1800 2400
+Wire Wire Line
+	1800 2500 1850 2500
+Wire Wire Line
+	1850 2500 1850 3250
+Wire Wire Line
+	1850 3250 4850 3250
+Wire Wire Line
+	1900 3200 4800 3200
+Wire Wire Line
+	4700 3100 4700 2650
+Wire Wire Line
+	4700 2650 4650 2650
+Wire Wire Line
+	4750 3150 4750 2750
+Wire Wire Line
+	4750 2750 4650 2750
+Wire Wire Line
+	4650 2850 4800 2850
+Wire Wire Line
+	4800 2850 4800 3200
+Wire Wire Line
+	4650 2950 4850 2950
+Wire Wire Line
+	4850 2950 4850 3250
+Wire Wire Line
+	4650 1400 4750 1400
+Wire Wire Line
+	4650 1500 4800 1500
+Wire Wire Line
+	4650 1600 4850 1600
+Wire Wire Line
+	4650 1700 4900 1700
+Wire Wire Line
+	1800 1900 4800 1900
+Wire Wire Line
+	1800 1000 2400 1000
+Wire Wire Line
+	1800 1100 2350 1100
+Wire Wire Line
+	1800 1200 2300 1200
+Wire Wire Line
+	1800 1300 2250 1300
+Wire Wire Line
+	1800 1400 2200 1400
+Wire Wire Line
+	1800 1500 2150 1500
+Wire Wire Line
+	1800 1600 2100 1600
+Wire Wire Line
+	1800 1700 2050 1700
+Wire Wire Line
+	1800 1800 1850 1800
+Wire Wire Line
+	1850 1800 1850 1850
+Wire Wire Line
+	1850 1850 4750 1850
+Wire Wire Line
+	1800 2000 1850 2000
+Wire Wire Line
+	1850 2000 1850 1950
+Wire Wire Line
+	1850 1950 4850 1950
+Wire Wire Line
+	1800 2100 1900 2100
+Wire Wire Line
+	1900 2100 1900 2000
+Wire Wire Line
+	1900 2000 4900 2000
+$Comp
+L Display_Character:CC56-12CGKWA U7
+U 1 1 5F5F1E49
+P 3550 3900
+F 0 "U7" H 4650 4300 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 4200 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 3300 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 3930 50  0001 C CNN
+	1    3550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U8
+U 1 1 5F5F1E4F
+P 3550 5150
+F 0 "U8" H 4650 5550 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 5450 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 4550 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 5180 50  0001 C CNN
+	1    3550 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U2
+U 1 1 5F5F1E55
+P 1400 4400
+F 0 "U2" H 1550 5450 50  0000 C CNN
+F 1 "MAX7219" H 1600 5350 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1350 4450 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1450 4250 50  0001 C CNN
+	1    1400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4850 2400 4850
+Wire Wire Line
+	2400 4850 2400 3600
+Wire Wire Line
+	2450 4950 2350 4950
+Wire Wire Line
+	2350 4950 2350 3700
+Wire Wire Line
+	2450 5050 2300 5050
+Wire Wire Line
+	2300 5050 2300 3800
+Wire Wire Line
+	2450 5150 2250 5150
+Wire Wire Line
+	2250 5150 2250 3900
+Wire Wire Line
+	2450 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 4000
+Wire Wire Line
+	2450 5350 2150 5350
+Wire Wire Line
+	2150 5350 2150 4100
+Wire Wire Line
+	2450 5450 2100 5450
+Wire Wire Line
+	2100 5450 2100 4200
+Wire Wire Line
+	2450 5550 2050 5550
+Wire Wire Line
+	2050 5550 2050 4300
+Wire Wire Line
+	2000 4800 2000 5700
+Wire Wire Line
+	2000 5700 4700 5700
+Wire Wire Line
+	4750 5750 1950 5750
+Wire Wire Line
+	4750 4450 4750 4000
+Wire Wire Line
+	4800 4100 4800 4500
+Wire Wire Line
+	4850 4200 4850 4550
+Wire Wire Line
+	4900 4300 4900 4600
+Wire Wire Line
+	2450 3600 2400 3600
+Connection ~ 2400 3600
+Wire Wire Line
+	2450 3700 2350 3700
+Connection ~ 2350 3700
+Wire Wire Line
+	2450 3800 2300 3800
+Connection ~ 2300 3800
+Wire Wire Line
+	2450 3900 2250 3900
+Connection ~ 2250 3900
+Wire Wire Line
+	2450 4000 2200 4000
+Connection ~ 2200 4000
+Wire Wire Line
+	2450 4100 2150 4100
+Connection ~ 2150 4100
+Wire Wire Line
+	2450 4200 2100 4200
+Connection ~ 2100 4200
+Wire Wire Line
+	2450 4300 2050 4300
+Connection ~ 2050 4300
+Wire Wire Line
+	1800 4800 2000 4800
+Wire Wire Line
+	1800 4900 1950 4900
+Wire Wire Line
+	1950 4900 1950 5750
+Wire Wire Line
+	1900 5800 1900 5000
+Wire Wire Line
+	1900 5000 1800 5000
+Wire Wire Line
+	1800 5100 1850 5100
+Wire Wire Line
+	1850 5100 1850 5850
+Wire Wire Line
+	1850 5850 4850 5850
+Wire Wire Line
+	1900 5800 4800 5800
+Wire Wire Line
+	4700 5700 4700 5250
+Wire Wire Line
+	4700 5250 4650 5250
+Wire Wire Line
+	4750 5750 4750 5350
+Wire Wire Line
+	4750 5350 4650 5350
+Wire Wire Line
+	4650 5450 4800 5450
+Wire Wire Line
+	4800 5450 4800 5800
+Wire Wire Line
+	4650 5550 4850 5550
+Wire Wire Line
+	4850 5550 4850 5850
+Wire Wire Line
+	4650 4000 4750 4000
+Wire Wire Line
+	4650 4100 4800 4100
+Wire Wire Line
+	4650 4200 4850 4200
+Wire Wire Line
+	4650 4300 4900 4300
+Wire Wire Line
+	1800 4500 4800 4500
+Wire Wire Line
+	1800 3600 2400 3600
+Wire Wire Line
+	1800 3700 2350 3700
+Wire Wire Line
+	1800 3800 2300 3800
+Wire Wire Line
+	1800 3900 2250 3900
+Wire Wire Line
+	1800 4000 2200 4000
+Wire Wire Line
+	1800 4100 2150 4100
+Wire Wire Line
+	1800 4200 2100 4200
+Wire Wire Line
+	1800 4300 2050 4300
+Wire Wire Line
+	1800 4400 1850 4400
+Wire Wire Line
+	1850 4400 1850 4450
+Wire Wire Line
+	1850 4450 4750 4450
+Wire Wire Line
+	1800 4600 1850 4600
+Wire Wire Line
+	1850 4600 1850 4550
+Wire Wire Line
+	1850 4550 4850 4550
+Wire Wire Line
+	1800 4700 1900 4700
+Wire Wire Line
+	1900 4700 1900 4600
+Wire Wire Line
+	1900 4600 4900 4600
+$Comp
+L Display_Character:CC56-12CGKWA U9
+U 1 1 5F620394
+P 3550 6500
+F 0 "U9" H 4650 6900 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 6800 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 5900 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 6530 50  0001 C CNN
+	1    3550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U10
+U 1 1 5F62039A
+P 3550 7750
+F 0 "U10" H 4650 8150 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 8050 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 7150 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 7780 50  0001 C CNN
+	1    3550 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U3
+U 1 1 5F6203A0
+P 1400 7000
+F 0 "U3" H 1550 8050 50  0000 C CNN
+F 1 "MAX7219" H 1600 7950 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1350 7050 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1450 6850 50  0001 C CNN
+	1    1400 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 7450 2400 7450
+Wire Wire Line
+	2400 7450 2400 6200
+Wire Wire Line
+	2450 7550 2350 7550
+Wire Wire Line
+	2350 7550 2350 6300
+Wire Wire Line
+	2450 7650 2300 7650
+Wire Wire Line
+	2300 7650 2300 6400
+Wire Wire Line
+	2450 7750 2250 7750
+Wire Wire Line
+	2250 7750 2250 6500
+Wire Wire Line
+	2450 7850 2200 7850
+Wire Wire Line
+	2200 7850 2200 6600
+Wire Wire Line
+	2450 7950 2150 7950
+Wire Wire Line
+	2150 7950 2150 6700
+Wire Wire Line
+	2450 8050 2100 8050
+Wire Wire Line
+	2100 8050 2100 6800
+Wire Wire Line
+	2450 8150 2050 8150
+Wire Wire Line
+	2050 8150 2050 6900
+Wire Wire Line
+	2000 7400 2000 8300
+Wire Wire Line
+	2000 8300 4700 8300
+Wire Wire Line
+	4750 8350 1950 8350
+Wire Wire Line
+	4750 7050 4750 6600
+Wire Wire Line
+	4800 6700 4800 7100
+Wire Wire Line
+	4850 6800 4850 7150
+Wire Wire Line
+	4900 6900 4900 7200
+Wire Wire Line
+	2450 6200 2400 6200
+Connection ~ 2400 6200
+Wire Wire Line
+	2450 6300 2350 6300
+Connection ~ 2350 6300
+Wire Wire Line
+	2450 6400 2300 6400
+Connection ~ 2300 6400
+Wire Wire Line
+	2450 6500 2250 6500
+Connection ~ 2250 6500
+Wire Wire Line
+	2450 6600 2200 6600
+Connection ~ 2200 6600
+Wire Wire Line
+	2450 6700 2150 6700
+Connection ~ 2150 6700
+Wire Wire Line
+	2450 6800 2100 6800
+Connection ~ 2100 6800
+Wire Wire Line
+	2450 6900 2050 6900
+Connection ~ 2050 6900
+Wire Wire Line
+	1800 7400 2000 7400
+Wire Wire Line
+	1800 7500 1950 7500
+Wire Wire Line
+	1950 7500 1950 8350
+Wire Wire Line
+	1900 8400 1900 7600
+Wire Wire Line
+	1900 7600 1800 7600
+Wire Wire Line
+	1800 7700 1850 7700
+Wire Wire Line
+	1850 7700 1850 8450
+Wire Wire Line
+	1850 8450 4850 8450
+Wire Wire Line
+	1900 8400 4800 8400
+Wire Wire Line
+	4700 8300 4700 7850
+Wire Wire Line
+	4700 7850 4650 7850
+Wire Wire Line
+	4750 8350 4750 7950
+Wire Wire Line
+	4750 7950 4650 7950
+Wire Wire Line
+	4650 8050 4800 8050
+Wire Wire Line
+	4800 8050 4800 8400
+Wire Wire Line
+	4650 8150 4850 8150
+Wire Wire Line
+	4850 8150 4850 8450
+Wire Wire Line
+	4650 6600 4750 6600
+Wire Wire Line
+	4650 6700 4800 6700
+Wire Wire Line
+	4650 6800 4850 6800
+Wire Wire Line
+	4650 6900 4900 6900
+Wire Wire Line
+	1800 7100 4800 7100
+Wire Wire Line
+	1800 6200 2400 6200
+Wire Wire Line
+	1800 6300 2350 6300
+Wire Wire Line
+	1800 6400 2300 6400
+Wire Wire Line
+	1800 6500 2250 6500
+Wire Wire Line
+	1800 6600 2200 6600
+Wire Wire Line
+	1800 6700 2150 6700
+Wire Wire Line
+	1800 6800 2100 6800
+Wire Wire Line
+	1800 6900 2050 6900
+Wire Wire Line
+	1800 7000 1850 7000
+Wire Wire Line
+	1850 7000 1850 7050
+Wire Wire Line
+	1850 7050 4750 7050
+Wire Wire Line
+	1800 7200 1850 7200
+Wire Wire Line
+	1850 7200 1850 7150
+Wire Wire Line
+	1850 7150 4850 7150
+Wire Wire Line
+	1800 7300 1900 7300
+Wire Wire Line
+	1900 7300 1900 7200
+Wire Wire Line
+	1900 7200 4900 7200
+$Comp
+L Display_Character:CC56-12CGKWA U11
+U 1 1 5F67F140
+P 3550 9100
+F 0 "U11" H 4650 9500 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 9400 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 8500 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 9130 50  0001 C CNN
+	1    3550 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U12
+U 1 1 5F67F146
+P 3550 10350
+F 0 "U12" H 4650 10750 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 4900 10650 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 3550 9750 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 3120 10380 50  0001 C CNN
+	1    3550 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U4
+U 1 1 5F67F14C
+P 1400 9600
+F 0 "U4" H 1550 10650 50  0000 C CNN
+F 1 "MAX7219" H 1600 10550 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 1350 9650 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 1450 9450 50  0001 C CNN
+	1    1400 9600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 10050 2400 10050
+Wire Wire Line
+	2400 10050 2400 8800
+Wire Wire Line
+	2450 10150 2350 10150
+Wire Wire Line
+	2350 10150 2350 8900
+Wire Wire Line
+	2450 10250 2300 10250
+Wire Wire Line
+	2300 10250 2300 9000
+Wire Wire Line
+	2450 10350 2250 10350
+Wire Wire Line
+	2250 10350 2250 9100
+Wire Wire Line
+	2450 10450 2200 10450
+Wire Wire Line
+	2200 10450 2200 9200
+Wire Wire Line
+	2450 10550 2150 10550
+Wire Wire Line
+	2150 10550 2150 9300
+Wire Wire Line
+	2450 10650 2100 10650
+Wire Wire Line
+	2100 10650 2100 9400
+Wire Wire Line
+	2450 10750 2050 10750
+Wire Wire Line
+	2050 10750 2050 9500
+Wire Wire Line
+	2000 10000 2000 10900
+Wire Wire Line
+	2000 10900 4700 10900
+Wire Wire Line
+	4750 10950 1950 10950
+Wire Wire Line
+	4750 9650 4750 9200
+Wire Wire Line
+	4800 9300 4800 9700
+Wire Wire Line
+	4850 9400 4850 9750
+Wire Wire Line
+	4900 9500 4900 9800
+Wire Wire Line
+	2450 8800 2400 8800
+Connection ~ 2400 8800
+Wire Wire Line
+	2450 8900 2350 8900
+Connection ~ 2350 8900
+Wire Wire Line
+	2450 9000 2300 9000
+Connection ~ 2300 9000
+Wire Wire Line
+	2450 9100 2250 9100
+Connection ~ 2250 9100
+Wire Wire Line
+	2450 9200 2200 9200
+Connection ~ 2200 9200
+Wire Wire Line
+	2450 9300 2150 9300
+Connection ~ 2150 9300
+Wire Wire Line
+	2450 9400 2100 9400
+Connection ~ 2100 9400
+Wire Wire Line
+	2450 9500 2050 9500
+Connection ~ 2050 9500
+Wire Wire Line
+	1800 10000 2000 10000
+Wire Wire Line
+	1800 10100 1950 10100
+Wire Wire Line
+	1950 10100 1950 10950
+Wire Wire Line
+	1900 11000 1900 10200
+Wire Wire Line
+	1900 10200 1800 10200
+Wire Wire Line
+	1800 10300 1850 10300
+Wire Wire Line
+	1850 10300 1850 11050
+Wire Wire Line
+	1850 11050 4850 11050
+Wire Wire Line
+	1900 11000 4800 11000
+Wire Wire Line
+	4700 10900 4700 10450
+Wire Wire Line
+	4700 10450 4650 10450
+Wire Wire Line
+	4750 10950 4750 10550
+Wire Wire Line
+	4750 10550 4650 10550
+Wire Wire Line
+	4650 10650 4800 10650
+Wire Wire Line
+	4800 10650 4800 11000
+Wire Wire Line
+	4650 10750 4850 10750
+Wire Wire Line
+	4850 10750 4850 11050
+Wire Wire Line
+	4650 9200 4750 9200
+Wire Wire Line
+	4650 9300 4800 9300
+Wire Wire Line
+	4650 9400 4850 9400
+Wire Wire Line
+	4650 9500 4900 9500
+Wire Wire Line
+	1800 9700 4800 9700
+Wire Wire Line
+	1800 8800 2400 8800
+Wire Wire Line
+	1800 8900 2350 8900
+Wire Wire Line
+	1800 9000 2300 9000
+Wire Wire Line
+	1800 9100 2250 9100
+Wire Wire Line
+	1800 9200 2200 9200
+Wire Wire Line
+	1800 9300 2150 9300
+Wire Wire Line
+	1800 9400 2100 9400
+Wire Wire Line
+	1800 9500 2050 9500
+Wire Wire Line
+	1800 9600 1850 9600
+Wire Wire Line
+	1850 9600 1850 9650
+Wire Wire Line
+	1850 9650 4750 9650
+Wire Wire Line
+	1800 9800 1850 9800
+Wire Wire Line
+	1850 9800 1850 9750
+Wire Wire Line
+	1850 9750 4850 9750
+Wire Wire Line
+	1800 9900 1900 9900
+Wire Wire Line
+	1900 9900 1900 9800
+Wire Wire Line
+	1900 9800 4900 9800
+$Comp
+L Display_Character:CC56-12CGKWA U16
+U 1 1 5F91DDC7
+P 8850 1300
+F 0 "U16" H 9950 1700 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 10200 1600 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 700 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 8420 1330 50  0001 C CNN
+	1    8850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U17
+U 1 1 5F91DDCD
+P 8850 2550
+F 0 "U17" H 9950 2950 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 10200 2850 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 1950 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 8420 2580 50  0001 C CNN
+	1    8850 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U13
+U 1 1 5F91DDD3
+P 6700 1800
+F 0 "U13" H 6850 2850 50  0000 C CNN
+F 1 "MAX7219" H 6900 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 6650 1850 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 6750 1650 50  0001 C CNN
+	1    6700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2250 7700 2250
+Wire Wire Line
+	7700 2250 7700 1000
+Wire Wire Line
+	7750 2350 7650 2350
+Wire Wire Line
+	7650 2350 7650 1100
+Wire Wire Line
+	7750 2450 7600 2450
+Wire Wire Line
+	7600 2450 7600 1200
+Wire Wire Line
+	7750 2550 7550 2550
+Wire Wire Line
+	7550 2550 7550 1300
+Wire Wire Line
+	7750 2650 7500 2650
+Wire Wire Line
+	7500 2650 7500 1400
+Wire Wire Line
+	7750 2750 7450 2750
+Wire Wire Line
+	7450 2750 7450 1500
+Wire Wire Line
+	7750 2850 7400 2850
+Wire Wire Line
+	7400 2850 7400 1600
+Wire Wire Line
+	7750 2950 7350 2950
+Wire Wire Line
+	7350 2950 7350 1700
+Wire Wire Line
+	7300 2200 7300 3100
+Wire Wire Line
+	7300 3100 10000 3100
+Wire Wire Line
+	10050 3150 7250 3150
+Wire Wire Line
+	10050 1850 10050 1400
+Wire Wire Line
+	10100 1500 10100 1900
+Wire Wire Line
+	10150 1600 10150 1950
+Wire Wire Line
+	10200 1700 10200 2000
+Wire Wire Line
+	7750 1000 7700 1000
+Connection ~ 7700 1000
+Wire Wire Line
+	7750 1100 7650 1100
+Connection ~ 7650 1100
+Wire Wire Line
+	7750 1200 7600 1200
+Connection ~ 7600 1200
+Wire Wire Line
+	7750 1300 7550 1300
+Connection ~ 7550 1300
+Wire Wire Line
+	7750 1400 7500 1400
+Connection ~ 7500 1400
+Wire Wire Line
+	7750 1500 7450 1500
+Connection ~ 7450 1500
+Wire Wire Line
+	7750 1600 7400 1600
+Connection ~ 7400 1600
+Wire Wire Line
+	7750 1700 7350 1700
+Connection ~ 7350 1700
+Wire Wire Line
+	7100 2200 7300 2200
+Wire Wire Line
+	7100 2300 7250 2300
+Wire Wire Line
+	7250 2300 7250 3150
+Wire Wire Line
+	7200 3200 7200 2400
+Wire Wire Line
+	7200 2400 7100 2400
+Wire Wire Line
+	7100 2500 7150 2500
+Wire Wire Line
+	7150 2500 7150 3250
+Wire Wire Line
+	7150 3250 10150 3250
+Wire Wire Line
+	7200 3200 10100 3200
+Wire Wire Line
+	10000 3100 10000 2650
+Wire Wire Line
+	10000 2650 9950 2650
+Wire Wire Line
+	10050 3150 10050 2750
+Wire Wire Line
+	10050 2750 9950 2750
+Wire Wire Line
+	9950 2850 10100 2850
+Wire Wire Line
+	10100 2850 10100 3200
+Wire Wire Line
+	9950 2950 10150 2950
+Wire Wire Line
+	10150 2950 10150 3250
+Wire Wire Line
+	9950 1400 10050 1400
+Wire Wire Line
+	9950 1500 10100 1500
+Wire Wire Line
+	9950 1600 10150 1600
+Wire Wire Line
+	9950 1700 10200 1700
+Wire Wire Line
+	7100 1900 10100 1900
+Wire Wire Line
+	7100 1000 7700 1000
+Wire Wire Line
+	7100 1100 7650 1100
+Wire Wire Line
+	7100 1200 7600 1200
+Wire Wire Line
+	7100 1300 7550 1300
+Wire Wire Line
+	7100 1400 7500 1400
+Wire Wire Line
+	7100 1500 7450 1500
+Wire Wire Line
+	7100 1600 7400 1600
+Wire Wire Line
+	7100 1700 7350 1700
+Wire Wire Line
+	7100 1800 7150 1800
+Wire Wire Line
+	7150 1800 7150 1850
+Wire Wire Line
+	7150 1850 10050 1850
+Wire Wire Line
+	7100 2000 7150 2000
+Wire Wire Line
+	7150 2000 7150 1950
+Wire Wire Line
+	7150 1950 10150 1950
+Wire Wire Line
+	7100 2100 7200 2100
+Wire Wire Line
+	7200 2100 7200 2000
+Wire Wire Line
+	7200 2000 10200 2000
+$Comp
+L Display_Character:CC56-12CGKWA U18
+U 1 1 5F91DE27
+P 8850 3900
+F 0 "U18" H 9950 4300 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 10200 4200 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 3300 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 8420 3930 50  0001 C CNN
+	1    8850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U19
+U 1 1 5F91DE2D
+P 8850 5150
+F 0 "U19" H 9950 5550 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 10200 5450 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 4550 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 8420 5180 50  0001 C CNN
+	1    8850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U14
+U 1 1 5F91DE33
+P 6700 4400
+F 0 "U14" H 6850 5450 50  0000 C CNN
+F 1 "MAX7219" H 6900 5350 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 6650 4450 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 6750 4250 50  0001 C CNN
+	1    6700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4850 7700 4850
+Wire Wire Line
+	7700 4850 7700 3600
+Wire Wire Line
+	7750 4950 7650 4950
+Wire Wire Line
+	7650 4950 7650 3700
+Wire Wire Line
+	7750 5050 7600 5050
+Wire Wire Line
+	7600 5050 7600 3800
+Wire Wire Line
+	7750 5150 7550 5150
+Wire Wire Line
+	7550 5150 7550 3900
+Wire Wire Line
+	7750 5250 7500 5250
+Wire Wire Line
+	7500 5250 7500 4000
+Wire Wire Line
+	7750 5350 7450 5350
+Wire Wire Line
+	7450 5350 7450 4100
+Wire Wire Line
+	7750 5450 7400 5450
+Wire Wire Line
+	7400 5450 7400 4200
+Wire Wire Line
+	7750 5550 7350 5550
+Wire Wire Line
+	7350 5550 7350 4300
+Wire Wire Line
+	7300 4800 7300 5700
+Wire Wire Line
+	7300 5700 10000 5700
+Wire Wire Line
+	10050 5750 7250 5750
+Wire Wire Line
+	10050 4450 10050 4000
+Wire Wire Line
+	10100 4100 10100 4500
+Wire Wire Line
+	10150 4200 10150 4550
+Wire Wire Line
+	10200 4300 10200 4600
+Wire Wire Line
+	7750 3600 7700 3600
+Connection ~ 7700 3600
+Wire Wire Line
+	7750 3700 7650 3700
+Connection ~ 7650 3700
+Wire Wire Line
+	7750 3800 7600 3800
+Connection ~ 7600 3800
+Wire Wire Line
+	7750 3900 7550 3900
+Connection ~ 7550 3900
+Wire Wire Line
+	7750 4000 7500 4000
+Connection ~ 7500 4000
+Wire Wire Line
+	7750 4100 7450 4100
+Connection ~ 7450 4100
+Wire Wire Line
+	7750 4200 7400 4200
+Connection ~ 7400 4200
+Wire Wire Line
+	7750 4300 7350 4300
+Connection ~ 7350 4300
+Wire Wire Line
+	7100 4800 7300 4800
+Wire Wire Line
+	7100 4900 7250 4900
+Wire Wire Line
+	7250 4900 7250 5750
+Wire Wire Line
+	7200 5800 7200 5000
+Wire Wire Line
+	7200 5000 7100 5000
+Wire Wire Line
+	7100 5100 7150 5100
+Wire Wire Line
+	7150 5100 7150 5850
+Wire Wire Line
+	7150 5850 10150 5850
+Wire Wire Line
+	7200 5800 10100 5800
+Wire Wire Line
+	10000 5700 10000 5250
+Wire Wire Line
+	10000 5250 9950 5250
+Wire Wire Line
+	10050 5750 10050 5350
+Wire Wire Line
+	10050 5350 9950 5350
+Wire Wire Line
+	9950 5450 10100 5450
+Wire Wire Line
+	10100 5450 10100 5800
+Wire Wire Line
+	9950 5550 10150 5550
+Wire Wire Line
+	10150 5550 10150 5850
+Wire Wire Line
+	9950 4000 10050 4000
+Wire Wire Line
+	9950 4100 10100 4100
+Wire Wire Line
+	9950 4200 10150 4200
+Wire Wire Line
+	9950 4300 10200 4300
+Wire Wire Line
+	7100 4500 10100 4500
+Wire Wire Line
+	7100 3600 7700 3600
+Wire Wire Line
+	7100 3700 7650 3700
+Wire Wire Line
+	7100 3800 7600 3800
+Wire Wire Line
+	7100 3900 7550 3900
+Wire Wire Line
+	7100 4000 7500 4000
+Wire Wire Line
+	7100 4100 7450 4100
+Wire Wire Line
+	7100 4200 7400 4200
+Wire Wire Line
+	7100 4300 7350 4300
+Wire Wire Line
+	7100 4400 7150 4400
+Wire Wire Line
+	7150 4400 7150 4450
+Wire Wire Line
+	7150 4450 10050 4450
+Wire Wire Line
+	7100 4600 7150 4600
+Wire Wire Line
+	7150 4600 7150 4550
+Wire Wire Line
+	7150 4550 10150 4550
+Wire Wire Line
+	7100 4700 7200 4700
+Wire Wire Line
+	7200 4700 7200 4600
+Wire Wire Line
+	7200 4600 10200 4600
+$Comp
+L Display_Character:CC56-12CGKWA U20
+U 1 1 5F91DE87
+P 8850 6500
+F 0 "U20" H 9950 6900 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 10200 6800 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 5900 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 8420 6530 50  0001 C CNN
+	1    8850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U21
+U 1 1 5F91DE8D
+P 8850 7750
+F 0 "U21" H 9950 8150 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 10200 8050 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 8850 7150 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 8420 7780 50  0001 C CNN
+	1    8850 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U15
+U 1 1 5F91DE93
+P 6700 7000
+F 0 "U15" H 6850 8050 50  0000 C CNN
+F 1 "MAX7219" H 6900 7950 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 6650 7050 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 6750 6850 50  0001 C CNN
+	1    6700 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 7450 7700 7450
+Wire Wire Line
+	7700 7450 7700 6200
+Wire Wire Line
+	7750 7550 7650 7550
+Wire Wire Line
+	7650 7550 7650 6300
+Wire Wire Line
+	7750 7650 7600 7650
+Wire Wire Line
+	7600 7650 7600 6400
+Wire Wire Line
+	7750 7750 7550 7750
+Wire Wire Line
+	7550 7750 7550 6500
+Wire Wire Line
+	7750 7850 7500 7850
+Wire Wire Line
+	7500 7850 7500 6600
+Wire Wire Line
+	7750 7950 7450 7950
+Wire Wire Line
+	7450 7950 7450 6700
+Wire Wire Line
+	7750 8050 7400 8050
+Wire Wire Line
+	7400 8050 7400 6800
+Wire Wire Line
+	7750 8150 7350 8150
+Wire Wire Line
+	7350 8150 7350 6900
+Wire Wire Line
+	7300 7400 7300 8300
+Wire Wire Line
+	7300 8300 10000 8300
+Wire Wire Line
+	10050 8350 7250 8350
+Wire Wire Line
+	10050 7050 10050 6600
+Wire Wire Line
+	10100 6700 10100 7100
+Wire Wire Line
+	10150 6800 10150 7150
+Wire Wire Line
+	10200 6900 10200 7200
+Wire Wire Line
+	7750 6200 7700 6200
+Connection ~ 7700 6200
+Wire Wire Line
+	7750 6300 7650 6300
+Connection ~ 7650 6300
+Wire Wire Line
+	7750 6400 7600 6400
+Connection ~ 7600 6400
+Wire Wire Line
+	7750 6500 7550 6500
+Connection ~ 7550 6500
+Wire Wire Line
+	7750 6600 7500 6600
+Connection ~ 7500 6600
+Wire Wire Line
+	7750 6700 7450 6700
+Connection ~ 7450 6700
+Wire Wire Line
+	7750 6800 7400 6800
+Connection ~ 7400 6800
+Wire Wire Line
+	7750 6900 7350 6900
+Connection ~ 7350 6900
+Wire Wire Line
+	7100 7400 7300 7400
+Wire Wire Line
+	7100 7500 7250 7500
+Wire Wire Line
+	7250 7500 7250 8350
+Wire Wire Line
+	7200 8400 7200 7600
+Wire Wire Line
+	7200 7600 7100 7600
+Wire Wire Line
+	7100 7700 7150 7700
+Wire Wire Line
+	7150 7700 7150 8450
+Wire Wire Line
+	7150 8450 10150 8450
+Wire Wire Line
+	7200 8400 10100 8400
+Wire Wire Line
+	10000 8300 10000 7850
+Wire Wire Line
+	10000 7850 9950 7850
+Wire Wire Line
+	10050 8350 10050 7950
+Wire Wire Line
+	10050 7950 9950 7950
+Wire Wire Line
+	9950 8050 10100 8050
+Wire Wire Line
+	10100 8050 10100 8400
+Wire Wire Line
+	9950 8150 10150 8150
+Wire Wire Line
+	10150 8150 10150 8450
+Wire Wire Line
+	9950 6600 10050 6600
+Wire Wire Line
+	9950 6700 10100 6700
+Wire Wire Line
+	9950 6800 10150 6800
+Wire Wire Line
+	9950 6900 10200 6900
+Wire Wire Line
+	7100 7100 10100 7100
+Wire Wire Line
+	7100 6200 7700 6200
+Wire Wire Line
+	7100 6300 7650 6300
+Wire Wire Line
+	7100 6400 7600 6400
+Wire Wire Line
+	7100 6500 7550 6500
+Wire Wire Line
+	7100 6600 7500 6600
+Wire Wire Line
+	7100 6700 7450 6700
+Wire Wire Line
+	7100 6800 7400 6800
+Wire Wire Line
+	7100 6900 7350 6900
+Wire Wire Line
+	7100 7000 7150 7000
+Wire Wire Line
+	7150 7000 7150 7050
+Wire Wire Line
+	7150 7050 10050 7050
+Wire Wire Line
+	7100 7200 7150 7200
+Wire Wire Line
+	7150 7200 7150 7150
+Wire Wire Line
+	7150 7150 10150 7150
+Wire Wire Line
+	7100 7300 7200 7300
+Wire Wire Line
+	7200 7300 7200 7200
+Wire Wire Line
+	7200 7200 10200 7200
+$Comp
+L Display_Character:CC56-12CGKWA U25
+U 1 1 5F96E15F
+P 14000 1300
+F 0 "U25" H 15100 1700 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 15350 1600 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 14000 700 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 13570 1330 50  0001 C CNN
+	1    14000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U26
+U 1 1 5F96E165
+P 14000 2550
+F 0 "U26" H 15100 2950 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 15350 2850 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 14000 1950 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 13570 2580 50  0001 C CNN
+	1    14000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U22
+U 1 1 5F96E16B
+P 11850 1800
+F 0 "U22" H 12000 2850 50  0000 C CNN
+F 1 "MAX7219" H 12050 2750 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 11800 1850 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 11900 1650 50  0001 C CNN
+	1    11850 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 2250 12850 2250
+Wire Wire Line
+	12850 2250 12850 1000
+Wire Wire Line
+	12900 2350 12800 2350
+Wire Wire Line
+	12800 2350 12800 1100
+Wire Wire Line
+	12900 2450 12750 2450
+Wire Wire Line
+	12750 2450 12750 1200
+Wire Wire Line
+	12900 2550 12700 2550
+Wire Wire Line
+	12700 2550 12700 1300
+Wire Wire Line
+	12900 2650 12650 2650
+Wire Wire Line
+	12650 2650 12650 1400
+Wire Wire Line
+	12900 2750 12600 2750
+Wire Wire Line
+	12600 2750 12600 1500
+Wire Wire Line
+	12900 2850 12550 2850
+Wire Wire Line
+	12550 2850 12550 1600
+Wire Wire Line
+	12900 2950 12500 2950
+Wire Wire Line
+	12500 2950 12500 1700
+Wire Wire Line
+	12450 2200 12450 3100
+Wire Wire Line
+	12450 3100 15150 3100
+Wire Wire Line
+	15200 3150 12400 3150
+Wire Wire Line
+	15200 1850 15200 1400
+Wire Wire Line
+	15250 1500 15250 1900
+Wire Wire Line
+	15300 1600 15300 1950
+Wire Wire Line
+	15350 1700 15350 2000
+Wire Wire Line
+	12900 1000 12850 1000
+Connection ~ 12850 1000
+Wire Wire Line
+	12900 1100 12800 1100
+Connection ~ 12800 1100
+Wire Wire Line
+	12900 1200 12750 1200
+Connection ~ 12750 1200
+Wire Wire Line
+	12900 1300 12700 1300
+Connection ~ 12700 1300
+Wire Wire Line
+	12900 1400 12650 1400
+Connection ~ 12650 1400
+Wire Wire Line
+	12900 1500 12600 1500
+Connection ~ 12600 1500
+Wire Wire Line
+	12900 1600 12550 1600
+Connection ~ 12550 1600
+Wire Wire Line
+	12900 1700 12500 1700
+Connection ~ 12500 1700
+Wire Wire Line
+	12250 2200 12450 2200
+Wire Wire Line
+	12250 2300 12400 2300
+Wire Wire Line
+	12400 2300 12400 3150
+Wire Wire Line
+	12350 3200 12350 2400
+Wire Wire Line
+	12350 2400 12250 2400
+Wire Wire Line
+	12250 2500 12300 2500
+Wire Wire Line
+	12300 2500 12300 3250
+Wire Wire Line
+	12300 3250 15300 3250
+Wire Wire Line
+	12350 3200 15250 3200
+Wire Wire Line
+	15150 3100 15150 2650
+Wire Wire Line
+	15150 2650 15100 2650
+Wire Wire Line
+	15200 3150 15200 2750
+Wire Wire Line
+	15200 2750 15100 2750
+Wire Wire Line
+	15100 2850 15250 2850
+Wire Wire Line
+	15250 2850 15250 3200
+Wire Wire Line
+	15100 2950 15300 2950
+Wire Wire Line
+	15300 2950 15300 3250
+Wire Wire Line
+	15100 1400 15200 1400
+Wire Wire Line
+	15100 1500 15250 1500
+Wire Wire Line
+	15100 1600 15300 1600
+Wire Wire Line
+	15100 1700 15350 1700
+Wire Wire Line
+	12250 1900 15250 1900
+Wire Wire Line
+	12250 1000 12850 1000
+Wire Wire Line
+	12250 1100 12800 1100
+Wire Wire Line
+	12250 1200 12750 1200
+Wire Wire Line
+	12250 1300 12700 1300
+Wire Wire Line
+	12250 1400 12650 1400
+Wire Wire Line
+	12250 1500 12600 1500
+Wire Wire Line
+	12250 1600 12550 1600
+Wire Wire Line
+	12250 1700 12500 1700
+Wire Wire Line
+	12250 1800 12300 1800
+Wire Wire Line
+	12300 1800 12300 1850
+Wire Wire Line
+	12300 1850 15200 1850
+Wire Wire Line
+	12250 2000 12300 2000
+Wire Wire Line
+	12300 2000 12300 1950
+Wire Wire Line
+	12300 1950 15300 1950
+Wire Wire Line
+	12250 2100 12350 2100
+Wire Wire Line
+	12350 2100 12350 2000
+Wire Wire Line
+	12350 2000 15350 2000
+$Comp
+L Display_Character:CC56-12CGKWA U27
+U 1 1 5F96E1BF
+P 14000 3900
+F 0 "U27" H 15100 4300 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 15350 4200 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 14000 3300 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 13570 3930 50  0001 C CNN
+	1    14000 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U28
+U 1 1 5F96E1C5
+P 14000 5150
+F 0 "U28" H 15100 5550 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 15350 5450 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 14000 4550 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 13570 5180 50  0001 C CNN
+	1    14000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U23
+U 1 1 5F96E1CB
+P 11850 4400
+F 0 "U23" H 12000 5450 50  0000 C CNN
+F 1 "MAX7219" H 12050 5350 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 11800 4450 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 11900 4250 50  0001 C CNN
+	1    11850 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 4850 12850 4850
+Wire Wire Line
+	12850 4850 12850 3600
+Wire Wire Line
+	12900 4950 12800 4950
+Wire Wire Line
+	12800 4950 12800 3700
+Wire Wire Line
+	12900 5050 12750 5050
+Wire Wire Line
+	12750 5050 12750 3800
+Wire Wire Line
+	12900 5150 12700 5150
+Wire Wire Line
+	12700 5150 12700 3900
+Wire Wire Line
+	12900 5250 12650 5250
+Wire Wire Line
+	12650 5250 12650 4000
+Wire Wire Line
+	12900 5350 12600 5350
+Wire Wire Line
+	12600 5350 12600 4100
+Wire Wire Line
+	12900 5450 12550 5450
+Wire Wire Line
+	12550 5450 12550 4200
+Wire Wire Line
+	12900 5550 12500 5550
+Wire Wire Line
+	12500 5550 12500 4300
+Wire Wire Line
+	12450 4800 12450 5700
+Wire Wire Line
+	12450 5700 15150 5700
+Wire Wire Line
+	15200 5750 12400 5750
+Wire Wire Line
+	15200 4450 15200 4000
+Wire Wire Line
+	15250 4100 15250 4500
+Wire Wire Line
+	15300 4200 15300 4550
+Wire Wire Line
+	15350 4300 15350 4600
+Wire Wire Line
+	12900 3600 12850 3600
+Connection ~ 12850 3600
+Wire Wire Line
+	12900 3700 12800 3700
+Connection ~ 12800 3700
+Wire Wire Line
+	12900 3800 12750 3800
+Connection ~ 12750 3800
+Wire Wire Line
+	12900 3900 12700 3900
+Connection ~ 12700 3900
+Wire Wire Line
+	12900 4000 12650 4000
+Connection ~ 12650 4000
+Wire Wire Line
+	12900 4100 12600 4100
+Connection ~ 12600 4100
+Wire Wire Line
+	12900 4200 12550 4200
+Connection ~ 12550 4200
+Wire Wire Line
+	12900 4300 12500 4300
+Connection ~ 12500 4300
+Wire Wire Line
+	12250 4800 12450 4800
+Wire Wire Line
+	12250 4900 12400 4900
+Wire Wire Line
+	12400 4900 12400 5750
+Wire Wire Line
+	12350 5800 12350 5000
+Wire Wire Line
+	12350 5000 12250 5000
+Wire Wire Line
+	12250 5100 12300 5100
+Wire Wire Line
+	12300 5100 12300 5850
+Wire Wire Line
+	12300 5850 15300 5850
+Wire Wire Line
+	12350 5800 15250 5800
+Wire Wire Line
+	15150 5700 15150 5250
+Wire Wire Line
+	15150 5250 15100 5250
+Wire Wire Line
+	15200 5750 15200 5350
+Wire Wire Line
+	15200 5350 15100 5350
+Wire Wire Line
+	15100 5450 15250 5450
+Wire Wire Line
+	15250 5450 15250 5800
+Wire Wire Line
+	15100 5550 15300 5550
+Wire Wire Line
+	15300 5550 15300 5850
+Wire Wire Line
+	15100 4000 15200 4000
+Wire Wire Line
+	15100 4100 15250 4100
+Wire Wire Line
+	15100 4200 15300 4200
+Wire Wire Line
+	15100 4300 15350 4300
+Wire Wire Line
+	12250 4500 15250 4500
+Wire Wire Line
+	12250 3600 12850 3600
+Wire Wire Line
+	12250 3700 12800 3700
+Wire Wire Line
+	12250 3800 12750 3800
+Wire Wire Line
+	12250 3900 12700 3900
+Wire Wire Line
+	12250 4000 12650 4000
+Wire Wire Line
+	12250 4100 12600 4100
+Wire Wire Line
+	12250 4200 12550 4200
+Wire Wire Line
+	12250 4300 12500 4300
+Wire Wire Line
+	12250 4400 12300 4400
+Wire Wire Line
+	12300 4400 12300 4450
+Wire Wire Line
+	12300 4450 15200 4450
+Wire Wire Line
+	12250 4600 12300 4600
+Wire Wire Line
+	12300 4600 12300 4550
+Wire Wire Line
+	12300 4550 15300 4550
+Wire Wire Line
+	12250 4700 12350 4700
+Wire Wire Line
+	12350 4700 12350 4600
+Wire Wire Line
+	12350 4600 15350 4600
+$Comp
+L Display_Character:CC56-12CGKWA U29
+U 1 1 5F96E21F
+P 14000 6500
+F 0 "U29" H 15100 6900 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 15350 6800 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 14000 5900 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 13570 6530 50  0001 C CNN
+	1    14000 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:CC56-12CGKWA U30
+U 1 1 5F96E225
+P 14000 7750
+F 0 "U30" H 15100 8150 50  0000 C CNN
+F 1 "CC56-12CGKWA" H 15350 8050 50  0000 C CNN
+F 2 "Display_7Segment:CA56-12CGKWA" H 14000 7150 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/CC56-12CGKWA(Ver.8A).pdf" H 13570 7780 50  0001 C CNN
+	1    14000 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_LED:MAX7219 U24
+U 1 1 5F96E22B
+P 11850 7000
+F 0 "U24" H 12000 8050 50  0000 C CNN
+F 1 "MAX7219" H 12050 7950 50  0000 C CNN
+F 2 "Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm" H 11800 7050 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX7219-MAX7221.pdf" H 11900 6850 50  0001 C CNN
+	1    11850 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12900 7450 12850 7450
+Wire Wire Line
+	12850 7450 12850 6200
+Wire Wire Line
+	12900 7550 12800 7550
+Wire Wire Line
+	12800 7550 12800 6300
+Wire Wire Line
+	12900 7650 12750 7650
+Wire Wire Line
+	12750 7650 12750 6400
+Wire Wire Line
+	12900 7750 12700 7750
+Wire Wire Line
+	12700 7750 12700 6500
+Wire Wire Line
+	12900 7850 12650 7850
+Wire Wire Line
+	12650 7850 12650 6600
+Wire Wire Line
+	12900 7950 12600 7950
+Wire Wire Line
+	12600 7950 12600 6700
+Wire Wire Line
+	12900 8050 12550 8050
+Wire Wire Line
+	12550 8050 12550 6800
+Wire Wire Line
+	12900 8150 12500 8150
+Wire Wire Line
+	12500 8150 12500 6900
+Wire Wire Line
+	12450 7400 12450 8300
+Wire Wire Line
+	12450 8300 15150 8300
+Wire Wire Line
+	15200 8350 12400 8350
+Wire Wire Line
+	15200 7050 15200 6600
+Wire Wire Line
+	15250 6700 15250 7100
+Wire Wire Line
+	15300 6800 15300 7150
+Wire Wire Line
+	15350 6900 15350 7200
+Wire Wire Line
+	12900 6200 12850 6200
+Connection ~ 12850 6200
+Wire Wire Line
+	12900 6300 12800 6300
+Connection ~ 12800 6300
+Wire Wire Line
+	12900 6400 12750 6400
+Connection ~ 12750 6400
+Wire Wire Line
+	12900 6500 12700 6500
+Connection ~ 12700 6500
+Wire Wire Line
+	12900 6600 12650 6600
+Connection ~ 12650 6600
+Wire Wire Line
+	12900 6700 12600 6700
+Connection ~ 12600 6700
+Wire Wire Line
+	12900 6800 12550 6800
+Connection ~ 12550 6800
+Wire Wire Line
+	12900 6900 12500 6900
+Connection ~ 12500 6900
+Wire Wire Line
+	12250 7400 12450 7400
+Wire Wire Line
+	12250 7500 12400 7500
+Wire Wire Line
+	12400 7500 12400 8350
+Wire Wire Line
+	12350 8400 12350 7600
+Wire Wire Line
+	12350 7600 12250 7600
+Wire Wire Line
+	12250 7700 12300 7700
+Wire Wire Line
+	12300 7700 12300 8450
+Wire Wire Line
+	12300 8450 15300 8450
+Wire Wire Line
+	12350 8400 15250 8400
+Wire Wire Line
+	15150 8300 15150 7850
+Wire Wire Line
+	15150 7850 15100 7850
+Wire Wire Line
+	15200 8350 15200 7950
+Wire Wire Line
+	15200 7950 15100 7950
+Wire Wire Line
+	15100 8050 15250 8050
+Wire Wire Line
+	15250 8050 15250 8400
+Wire Wire Line
+	15100 8150 15300 8150
+Wire Wire Line
+	15300 8150 15300 8450
+Wire Wire Line
+	15100 6600 15200 6600
+Wire Wire Line
+	15100 6700 15250 6700
+Wire Wire Line
+	15100 6800 15300 6800
+Wire Wire Line
+	15100 6900 15350 6900
+Wire Wire Line
+	12250 7100 15250 7100
+Wire Wire Line
+	12250 6200 12850 6200
+Wire Wire Line
+	12250 6300 12800 6300
+Wire Wire Line
+	12250 6400 12750 6400
+Wire Wire Line
+	12250 6500 12700 6500
+Wire Wire Line
+	12250 6600 12650 6600
+Wire Wire Line
+	12250 6700 12600 6700
+Wire Wire Line
+	12250 6800 12550 6800
+Wire Wire Line
+	12250 6900 12500 6900
+Wire Wire Line
+	12250 7000 12300 7000
+Wire Wire Line
+	12300 7000 12300 7050
+Wire Wire Line
+	12300 7050 15200 7050
+Wire Wire Line
+	12250 7200 12300 7200
+Wire Wire Line
+	12300 7200 12300 7150
+Wire Wire Line
+	12300 7150 15300 7150
+Wire Wire Line
+	12250 7300 12350 7300
+Wire Wire Line
+	12350 7300 12350 7200
+Wire Wire Line
+	12350 7200 15350 7200
+$Comp
+L power:GND #PWR08
+U 1 1 5FCD905F
+P 1400 5400
+F 0 "#PWR08" H 1400 5150 50  0001 C CNN
+F 1 "GND" H 1405 5227 50  0000 C CNN
+F 2 "" H 1400 5400 50  0001 C CNN
+F 3 "" H 1400 5400 50  0001 C CNN
+	1    1400 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FCD9E98
+P 1400 2800
+F 0 "#PWR06" H 1400 2550 50  0001 C CNN
+F 1 "GND" H 1405 2627 50  0000 C CNN
+F 2 "" H 1400 2800 50  0001 C CNN
+F 3 "" H 1400 2800 50  0001 C CNN
+	1    1400 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5FCDDC77
+P 1400 8000
+F 0 "#PWR010" H 1400 7750 50  0001 C CNN
+F 1 "GND" H 1405 7827 50  0000 C CNN
+F 2 "" H 1400 8000 50  0001 C CNN
+F 3 "" H 1400 8000 50  0001 C CNN
+	1    1400 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5FCE1B28
+P 1400 10600
+F 0 "#PWR012" H 1400 10350 50  0001 C CNN
+F 1 "GND" H 1405 10427 50  0000 C CNN
+F 2 "" H 1400 10600 50  0001 C CNN
+F 3 "" H 1400 10600 50  0001 C CNN
+	1    1400 10600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5FCE4E57
+P 6700 8000
+F 0 "#PWR025" H 6700 7750 50  0001 C CNN
+F 1 "GND" H 6705 7827 50  0000 C CNN
+F 2 "" H 6700 8000 50  0001 C CNN
+F 3 "" H 6700 8000 50  0001 C CNN
+	1    6700 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5FCEA660
+P 6700 5400
+F 0 "#PWR023" H 6700 5150 50  0001 C CNN
+F 1 "GND" H 6705 5227 50  0000 C CNN
+F 2 "" H 6700 5400 50  0001 C CNN
+F 3 "" H 6700 5400 50  0001 C CNN
+	1    6700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5FCEDDFC
+P 6700 2800
+F 0 "#PWR021" H 6700 2550 50  0001 C CNN
+F 1 "GND" H 6705 2627 50  0000 C CNN
+F 2 "" H 6700 2800 50  0001 C CNN
+F 3 "" H 6700 2800 50  0001 C CNN
+	1    6700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR066
+U 1 1 5FCF179D
+P 11850 2800
+F 0 "#PWR066" H 11850 2550 50  0001 C CNN
+F 1 "GND" H 11855 2627 50  0000 C CNN
+F 2 "" H 11850 2800 50  0001 C CNN
+F 3 "" H 11850 2800 50  0001 C CNN
+	1    11850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR068
+U 1 1 5FCF6279
+P 11850 5400
+F 0 "#PWR068" H 11850 5150 50  0001 C CNN
+F 1 "GND" H 11855 5227 50  0000 C CNN
+F 2 "" H 11850 5400 50  0001 C CNN
+F 3 "" H 11850 5400 50  0001 C CNN
+	1    11850 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR070
+U 1 1 5FCF853A
+P 11850 8000
+F 0 "#PWR070" H 11850 7750 50  0001 C CNN
+F 1 "GND" H 11855 7827 50  0000 C CNN
+F 2 "" H 11850 8000 50  0001 C CNN
+F 3 "" H 11850 8000 50  0001 C CNN
+	1    11850 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR069
+U 1 1 5FD04046
+P 11850 6000
+F 0 "#PWR069" H 11850 5850 50  0001 C CNN
+F 1 "VCC" H 11867 6173 50  0000 C CNN
+F 2 "" H 11850 6000 50  0001 C CNN
+F 3 "" H 11850 6000 50  0001 C CNN
+	1    11850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR067
+U 1 1 5FD052C5
+P 11850 3400
+F 0 "#PWR067" H 11850 3250 50  0001 C CNN
+F 1 "VCC" H 11867 3573 50  0000 C CNN
+F 2 "" H 11850 3400 50  0001 C CNN
+F 3 "" H 11850 3400 50  0001 C CNN
+	1    11850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR065
+U 1 1 5FD102CB
+P 11850 800
+F 0 "#PWR065" H 11850 650 50  0001 C CNN
+F 1 "VCC" H 11867 973 50  0000 C CNN
+F 2 "" H 11850 800 50  0001 C CNN
+F 3 "" H 11850 800 50  0001 C CNN
+	1    11850 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR020
+U 1 1 5FD17694
+P 6700 800
+F 0 "#PWR020" H 6700 650 50  0001 C CNN
+F 1 "VCC" H 6717 973 50  0000 C CNN
+F 2 "" H 6700 800 50  0001 C CNN
+F 3 "" H 6700 800 50  0001 C CNN
+	1    6700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR022
+U 1 1 5FD2112D
+P 6700 3400
+F 0 "#PWR022" H 6700 3250 50  0001 C CNN
+F 1 "VCC" H 6717 3573 50  0000 C CNN
+F 2 "" H 6700 3400 50  0001 C CNN
+F 3 "" H 6700 3400 50  0001 C CNN
+	1    6700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR024
+U 1 1 5FD25D1E
+P 6700 6000
+F 0 "#PWR024" H 6700 5850 50  0001 C CNN
+F 1 "VCC" H 6717 6173 50  0000 C CNN
+F 2 "" H 6700 6000 50  0001 C CNN
+F 3 "" H 6700 6000 50  0001 C CNN
+	1    6700 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5FD2BA65
+P 1400 800
+F 0 "#PWR05" H 1400 650 50  0001 C CNN
+F 1 "VCC" H 1417 973 50  0000 C CNN
+F 2 "" H 1400 800 50  0001 C CNN
+F 3 "" H 1400 800 50  0001 C CNN
+	1    1400 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR07
+U 1 1 5FD34F8A
+P 1400 3400
+F 0 "#PWR07" H 1400 3250 50  0001 C CNN
+F 1 "VCC" H 1417 3573 50  0000 C CNN
+F 2 "" H 1400 3400 50  0001 C CNN
+F 3 "" H 1400 3400 50  0001 C CNN
+	1    1400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5FD38FF9
+P 1400 6000
+F 0 "#PWR09" H 1400 5850 50  0001 C CNN
+F 1 "VCC" H 1417 6173 50  0000 C CNN
+F 2 "" H 1400 6000 50  0001 C CNN
+F 3 "" H 1400 6000 50  0001 C CNN
+	1    1400 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR011
+U 1 1 5FD3CF13
+P 1400 8600
+F 0 "#PWR011" H 1400 8450 50  0001 C CNN
+F 1 "VCC" H 1417 8773 50  0000 C CNN
+F 2 "" H 1400 8600 50  0001 C CNN
+F 3 "" H 1400 8600 50  0001 C CNN
+	1    1400 8600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 10200 0    50   Input ~ 0
+led_load
+Text GLabel 1000 7600 0    50   Input ~ 0
+led_load
+Text GLabel 1000 5000 0    50   Input ~ 0
+led_load
+Text GLabel 1000 2400 0    50   Input ~ 0
+led_load
+Text GLabel 6300 2400 0    50   Input ~ 0
+led_load
+Text GLabel 6300 5000 0    50   Input ~ 0
+led_load
+Text GLabel 6300 7600 0    50   Input ~ 0
+led_load
+Text GLabel 11450 7600 0    50   Input ~ 0
+led_load
+Text GLabel 11450 5000 0    50   Input ~ 0
+led_load
+Text GLabel 11450 2400 0    50   Input ~ 0
+led_load
+Text GLabel 11450 2500 0    50   Input ~ 0
+led_clk
+Text GLabel 11450 5100 0    50   Input ~ 0
+led_clk
+Text GLabel 11450 7700 0    50   Input ~ 0
+led_clk
+Text GLabel 6300 7700 0    50   Input ~ 0
+led_clk
+Text GLabel 6300 5100 0    50   Input ~ 0
+led_clk
+Text GLabel 6300 2500 0    50   Input ~ 0
+led_clk
+Text GLabel 1000 2500 0    50   Input ~ 0
+led_clk
+Text GLabel 1000 5100 0    50   Input ~ 0
+led_clk
+Text GLabel 1000 7700 0    50   Input ~ 0
+led_clk
+Text GLabel 1000 10300 0    50   Input ~ 0
+led_clk
+$Comp
+L Device:R R4
+U 1 1 5FD8625E
+P 950 9000
+F 0 "R4" H 881 8954 50  0000 R CNN
+F 1 "R" H 881 9045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 880 9000 50  0001 C CNN
+F 3 "~" H 950 9000 50  0001 C CNN
+	1    950  9000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FD8E248
+P 950 6400
+F 0 "R3" H 881 6354 50  0000 R CNN
+F 1 "R" H 881 6445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 880 6400 50  0001 C CNN
+F 3 "~" H 950 6400 50  0001 C CNN
+	1    950  6400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5FD90A7C
+P 950 3800
+F 0 "R2" H 881 3754 50  0000 R CNN
+F 1 "R" H 881 3845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 880 3800 50  0001 C CNN
+F 3 "~" H 950 3800 50  0001 C CNN
+	1    950  3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FD947D8
+P 950 1200
+F 0 "R1" H 881 1154 50  0000 R CNN
+F 1 "R" H 881 1245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 880 1200 50  0001 C CNN
+F 3 "~" H 950 1200 50  0001 C CNN
+	1    950  1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5FD97AE0
+P 6250 1200
+F 0 "R5" H 6181 1154 50  0000 R CNN
+F 1 "R" H 6181 1245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 1200 50  0001 C CNN
+F 3 "~" H 6250 1200 50  0001 C CNN
+	1    6250 1200
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5FD9C70D
+P 6250 3800
+F 0 "R6" H 6181 3754 50  0000 R CNN
+F 1 "R" H 6181 3845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 3800 50  0001 C CNN
+F 3 "~" H 6250 3800 50  0001 C CNN
+	1    6250 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5FDA07E5
+P 6250 6400
+F 0 "R7" H 6181 6354 50  0000 R CNN
+F 1 "R" H 6181 6445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 6400 50  0001 C CNN
+F 3 "~" H 6250 6400 50  0001 C CNN
+	1    6250 6400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5FDA51E0
+P 11400 6400
+F 0 "R10" H 11331 6354 50  0000 R CNN
+F 1 "R" H 11331 6445 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11330 6400 50  0001 C CNN
+F 3 "~" H 11400 6400 50  0001 C CNN
+	1    11400 6400
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5FDABFE3
+P 11400 3800
+F 0 "R9" H 11331 3754 50  0000 R CNN
+F 1 "R" H 11331 3845 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11330 3800 50  0001 C CNN
+F 3 "~" H 11400 3800 50  0001 C CNN
+	1    11400 3800
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5FDAF06E
+P 11400 1200
+F 0 "R8" H 11331 1154 50  0000 R CNN
+F 1 "R" H 11331 1245 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 11330 1200 50  0001 C CNN
+F 3 "~" H 11400 1200 50  0001 C CNN
+	1    11400 1200
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	11450 1000 11400 1000
+Wire Wire Line
+	11400 1000 11400 1050
+Wire Wire Line
+	11450 3600 11400 3600
+Wire Wire Line
+	11400 3600 11400 3650
+Wire Wire Line
+	11450 6200 11400 6200
+Wire Wire Line
+	11400 6200 11400 6250
+Wire Wire Line
+	6300 6200 6250 6200
+Wire Wire Line
+	6250 6200 6250 6250
+Wire Wire Line
+	6300 1000 6250 1000
+Wire Wire Line
+	6250 1000 6250 1050
+Wire Wire Line
+	1000 1000 950  1000
+Wire Wire Line
+	950  1000 950  1050
+Wire Wire Line
+	1000 3600 950  3600
+Wire Wire Line
+	950  3600 950  3650
+Wire Wire Line
+	1000 6200 950  6200
+Wire Wire Line
+	950  6200 950  6250
+Wire Wire Line
+	1000 8800 950  8800
+Wire Wire Line
+	950  8800 950  8850
+$Comp
+L power:VCC #PWR01
+U 1 1 60230E48
+P 950 1350
+F 0 "#PWR01" H 950 1200 50  0001 C CNN
+F 1 "VCC" H 968 1523 50  0000 C CNN
+F 2 "" H 950 1350 50  0001 C CNN
+F 3 "" H 950 1350 50  0001 C CNN
+	1    950  1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 60231ABA
+P 950 3950
+F 0 "#PWR02" H 950 3800 50  0001 C CNN
+F 1 "VCC" H 968 4123 50  0000 C CNN
+F 2 "" H 950 3950 50  0001 C CNN
+F 3 "" H 950 3950 50  0001 C CNN
+	1    950  3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR03
+U 1 1 602359B2
+P 950 6550
+F 0 "#PWR03" H 950 6400 50  0001 C CNN
+F 1 "VCC" H 968 6723 50  0000 C CNN
+F 2 "" H 950 6550 50  0001 C CNN
+F 3 "" H 950 6550 50  0001 C CNN
+	1    950  6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR04
+U 1 1 602391EE
+P 950 9150
+F 0 "#PWR04" H 950 9000 50  0001 C CNN
+F 1 "VCC" H 968 9323 50  0000 C CNN
+F 2 "" H 950 9150 50  0001 C CNN
+F 3 "" H 950 9150 50  0001 C CNN
+	1    950  9150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR015
+U 1 1 6023B89C
+P 6250 6550
+F 0 "#PWR015" H 6250 6400 50  0001 C CNN
+F 1 "VCC" H 6268 6723 50  0000 C CNN
+F 2 "" H 6250 6550 50  0001 C CNN
+F 3 "" H 6250 6550 50  0001 C CNN
+	1    6250 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR014
+U 1 1 602428C3
+P 6250 3950
+F 0 "#PWR014" H 6250 3800 50  0001 C CNN
+F 1 "VCC" H 6268 4123 50  0000 C CNN
+F 2 "" H 6250 3950 50  0001 C CNN
+F 3 "" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6300 3600 6250 3600
+Wire Wire Line
+	6250 3600 6250 3650
+$Comp
+L power:VCC #PWR013
+U 1 1 602C6EED
+P 6250 1350
+F 0 "#PWR013" H 6250 1200 50  0001 C CNN
+F 1 "VCC" H 6268 1523 50  0000 C CNN
+F 2 "" H 6250 1350 50  0001 C CNN
+F 3 "" H 6250 1350 50  0001 C CNN
+	1    6250 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR062
+U 1 1 602C9E51
+P 11400 1350
+F 0 "#PWR062" H 11400 1200 50  0001 C CNN
+F 1 "VCC" H 11418 1523 50  0000 C CNN
+F 2 "" H 11400 1350 50  0001 C CNN
+F 3 "" H 11400 1350 50  0001 C CNN
+	1    11400 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR063
+U 1 1 602D0C2A
+P 11400 3950
+F 0 "#PWR063" H 11400 3800 50  0001 C CNN
+F 1 "VCC" H 11418 4123 50  0000 C CNN
+F 2 "" H 11400 3950 50  0001 C CNN
+F 3 "" H 11400 3950 50  0001 C CNN
+	1    11400 3950
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR064
+U 1 1 602D3EFD
+P 11400 6550
+F 0 "#PWR064" H 11400 6400 50  0001 C CNN
+F 1 "VCC" H 11418 6723 50  0000 C CNN
+F 2 "" H 11400 6550 50  0001 C CNN
+F 3 "" H 11400 6550 50  0001 C CNN
+	1    11400 6550
+	-1   0    0    1   
+$EndComp
+Text GLabel 1800 2700 3    50   Output ~ 0
+led_data6
+Text GLabel 1000 5200 0    50   Input ~ 0
+led_data6
+Text GLabel 1800 5300 3    50   Output ~ 0
+led_data7
+Wire Wire Line
+	1800 5300 1800 5200
+Text GLabel 11450 2600 0    50   Input ~ 0
+led_data7
+Text GLabel 1000 10400 0    50   Input ~ 0
+led_data2
+Text GLabel 6300 2600 0    50   Input ~ 0
+led_data0
+Text GLabel 6300 5200 0    50   Input ~ 0
+led_data3
+Text GLabel 6300 7800 0    50   Input ~ 0
+led_data4
+Text GLabel 1000 2600 0    50   Input ~ 0
+led_data5
+Text GLabel 11450 5200 0    50   Input ~ 0
+led_data8
+Text GLabel 11450 7800 0    50   Input ~ 0
+led_data9
+Wire Wire Line
+	1800 2600 1800 2700
+Text GLabel 1000 7800 0    50   Input ~ 0
+led_data1
+Text GLabel 1800 7900 3    50   Output ~ 0
+led_data2
+Wire Wire Line
+	1800 7800 1800 7900
+Text GLabel 1800 10500 3    50   Output ~ 0
+led_data3
+Wire Wire Line
+	1800 10400 1800 10500
+Text GLabel 7100 2700 3    50   Output ~ 0
+led_data1
+Wire Wire Line
+	7100 2600 7100 2700
+Text GLabel 7100 5300 3    50   Output ~ 0
+led_data4
+Wire Wire Line
+	7100 5200 7100 5300
+Text GLabel 7100 7900 3    50   Output ~ 0
+led_data5
+Wire Wire Line
+	7100 7800 7100 7900
+Text GLabel 12250 2700 3    50   Output ~ 0
+led_data8
+Wire Wire Line
+	12250 2600 12250 2700
+Text GLabel 12250 5300 3    50   Output ~ 0
+led_data9
+Wire Wire Line
+	12250 5200 12250 5300
+$Comp
+L Device:C C1
+U 1 1 60A7DB67
+P 6300 9400
+F 0 "C1" H 6415 9446 50  0000 L CNN
+F 1 "100n" H 6415 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6338 9250 50  0001 C CNN
+F 3 "~" H 6300 9400 50  0001 C CNN
+	1    6300 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 60A813F5
+P 6300 9550
+F 0 "#PWR017" H 6300 9300 50  0001 C CNN
+F 1 "GND" H 6305 9377 50  0000 C CNN
+F 2 "" H 6300 9550 50  0001 C CNN
+F 3 "" H 6300 9550 50  0001 C CNN
+	1    6300 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR016
+U 1 1 60A86BBD
+P 6300 9250
+F 0 "#PWR016" H 6300 9100 50  0001 C CNN
+F 1 "VCC" H 6317 9423 50  0000 C CNN
+F 2 "" H 6300 9250 50  0001 C CNN
+F 3 "" H 6300 9250 50  0001 C CNN
+	1    6300 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 60A8A6DA
+P 6750 9400
+F 0 "C3" H 6865 9446 50  0000 L CNN
+F 1 "100n" H 6865 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 9250 50  0001 C CNN
+F 3 "~" H 6750 9400 50  0001 C CNN
+	1    6750 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 60A8A6E0
+P 6750 9550
+F 0 "#PWR027" H 6750 9300 50  0001 C CNN
+F 1 "GND" H 6755 9377 50  0000 C CNN
+F 2 "" H 6750 9550 50  0001 C CNN
+F 3 "" H 6750 9550 50  0001 C CNN
+	1    6750 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR026
+U 1 1 60A8A6E6
+P 6750 9250
+F 0 "#PWR026" H 6750 9100 50  0001 C CNN
+F 1 "VCC" H 6767 9423 50  0000 C CNN
+F 2 "" H 6750 9250 50  0001 C CNN
+F 3 "" H 6750 9250 50  0001 C CNN
+	1    6750 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 60B0F0E0
+P 7200 9400
+F 0 "C5" H 7315 9446 50  0000 L CNN
+F 1 "100n" H 7315 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7238 9250 50  0001 C CNN
+F 3 "~" H 7200 9400 50  0001 C CNN
+	1    7200 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 60B0F0E6
+P 7200 9550
+F 0 "#PWR031" H 7200 9300 50  0001 C CNN
+F 1 "GND" H 7205 9377 50  0000 C CNN
+F 2 "" H 7200 9550 50  0001 C CNN
+F 3 "" H 7200 9550 50  0001 C CNN
+	1    7200 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR030
+U 1 1 60B0F0EC
+P 7200 9250
+F 0 "#PWR030" H 7200 9100 50  0001 C CNN
+F 1 "VCC" H 7217 9423 50  0000 C CNN
+F 2 "" H 7200 9250 50  0001 C CNN
+F 3 "" H 7200 9250 50  0001 C CNN
+	1    7200 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 60B0F0F2
+P 7650 9400
+F 0 "C7" H 7765 9446 50  0000 L CNN
+F 1 "100n" H 7765 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7688 9250 50  0001 C CNN
+F 3 "~" H 7650 9400 50  0001 C CNN
+	1    7650 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 60B0F0F8
+P 7650 9550
+F 0 "#PWR035" H 7650 9300 50  0001 C CNN
+F 1 "GND" H 7655 9377 50  0000 C CNN
+F 2 "" H 7650 9550 50  0001 C CNN
+F 3 "" H 7650 9550 50  0001 C CNN
+	1    7650 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR034
+U 1 1 60B0F0FE
+P 7650 9250
+F 0 "#PWR034" H 7650 9100 50  0001 C CNN
+F 1 "VCC" H 7667 9423 50  0000 C CNN
+F 2 "" H 7650 9250 50  0001 C CNN
+F 3 "" H 7650 9250 50  0001 C CNN
+	1    7650 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 60BA2426
+P 8100 9400
+F 0 "C9" H 8215 9446 50  0000 L CNN
+F 1 "100n" H 8215 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8138 9250 50  0001 C CNN
+F 3 "~" H 8100 9400 50  0001 C CNN
+	1    8100 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR039
+U 1 1 60BA242C
+P 8100 9550
+F 0 "#PWR039" H 8100 9300 50  0001 C CNN
+F 1 "GND" H 8105 9377 50  0000 C CNN
+F 2 "" H 8100 9550 50  0001 C CNN
+F 3 "" H 8100 9550 50  0001 C CNN
+	1    8100 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR038
+U 1 1 60BA2432
+P 8100 9250
+F 0 "#PWR038" H 8100 9100 50  0001 C CNN
+F 1 "VCC" H 8117 9423 50  0000 C CNN
+F 2 "" H 8100 9250 50  0001 C CNN
+F 3 "" H 8100 9250 50  0001 C CNN
+	1    8100 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 60BA2438
+P 8550 9400
+F 0 "C11" H 8665 9446 50  0000 L CNN
+F 1 "100n" H 8665 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8588 9250 50  0001 C CNN
+F 3 "~" H 8550 9400 50  0001 C CNN
+	1    8550 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR043
+U 1 1 60BA243E
+P 8550 9550
+F 0 "#PWR043" H 8550 9300 50  0001 C CNN
+F 1 "GND" H 8555 9377 50  0000 C CNN
+F 2 "" H 8550 9550 50  0001 C CNN
+F 3 "" H 8550 9550 50  0001 C CNN
+	1    8550 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR042
+U 1 1 60BA2444
+P 8550 9250
+F 0 "#PWR042" H 8550 9100 50  0001 C CNN
+F 1 "VCC" H 8567 9423 50  0000 C CNN
+F 2 "" H 8550 9250 50  0001 C CNN
+F 3 "" H 8550 9250 50  0001 C CNN
+	1    8550 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 60BA244A
+P 9000 9400
+F 0 "C13" H 9115 9446 50  0000 L CNN
+F 1 "100n" H 9115 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9038 9250 50  0001 C CNN
+F 3 "~" H 9000 9400 50  0001 C CNN
+	1    9000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR047
+U 1 1 60BA2450
+P 9000 9550
+F 0 "#PWR047" H 9000 9300 50  0001 C CNN
+F 1 "GND" H 9005 9377 50  0000 C CNN
+F 2 "" H 9000 9550 50  0001 C CNN
+F 3 "" H 9000 9550 50  0001 C CNN
+	1    9000 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR046
+U 1 1 60BA2456
+P 9000 9250
+F 0 "#PWR046" H 9000 9100 50  0001 C CNN
+F 1 "VCC" H 9017 9423 50  0000 C CNN
+F 2 "" H 9000 9250 50  0001 C CNN
+F 3 "" H 9000 9250 50  0001 C CNN
+	1    9000 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 60BA245C
+P 9450 9400
+F 0 "C15" H 9565 9446 50  0000 L CNN
+F 1 "100n" H 9565 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9488 9250 50  0001 C CNN
+F 3 "~" H 9450 9400 50  0001 C CNN
+	1    9450 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR051
+U 1 1 60BA2462
+P 9450 9550
+F 0 "#PWR051" H 9450 9300 50  0001 C CNN
+F 1 "GND" H 9455 9377 50  0000 C CNN
+F 2 "" H 9450 9550 50  0001 C CNN
+F 3 "" H 9450 9550 50  0001 C CNN
+	1    9450 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR050
+U 1 1 60BA2468
+P 9450 9250
+F 0 "#PWR050" H 9450 9100 50  0001 C CNN
+F 1 "VCC" H 9467 9423 50  0000 C CNN
+F 2 "" H 9450 9250 50  0001 C CNN
+F 3 "" H 9450 9250 50  0001 C CNN
+	1    9450 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 60C29256
+P 9900 9400
+F 0 "C17" H 10015 9446 50  0000 L CNN
+F 1 "100n" H 10015 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9938 9250 50  0001 C CNN
+F 3 "~" H 9900 9400 50  0001 C CNN
+	1    9900 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 60C2925C
+P 9900 9550
+F 0 "#PWR055" H 9900 9300 50  0001 C CNN
+F 1 "GND" H 9905 9377 50  0000 C CNN
+F 2 "" H 9900 9550 50  0001 C CNN
+F 3 "" H 9900 9550 50  0001 C CNN
+	1    9900 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR054
+U 1 1 60C29262
+P 9900 9250
+F 0 "#PWR054" H 9900 9100 50  0001 C CNN
+F 1 "VCC" H 9917 9423 50  0000 C CNN
+F 2 "" H 9900 9250 50  0001 C CNN
+F 3 "" H 9900 9250 50  0001 C CNN
+	1    9900 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 60C29268
+P 10350 9400
+F 0 "C19" H 10465 9446 50  0000 L CNN
+F 1 "100n" H 10465 9355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10388 9250 50  0001 C CNN
+F 3 "~" H 10350 9400 50  0001 C CNN
+	1    10350 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR059
+U 1 1 60C2926E
+P 10350 9550
+F 0 "#PWR059" H 10350 9300 50  0001 C CNN
+F 1 "GND" H 10355 9377 50  0000 C CNN
+F 2 "" H 10350 9550 50  0001 C CNN
+F 3 "" H 10350 9550 50  0001 C CNN
+	1    10350 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR058
+U 1 1 60C29274
+P 10350 9250
+F 0 "#PWR058" H 10350 9100 50  0001 C CNN
+F 1 "VCC" H 10367 9423 50  0000 C CNN
+F 2 "" H 10350 9250 50  0001 C CNN
+F 3 "" H 10350 9250 50  0001 C CNN
+	1    10350 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 60E5A01C
+P 6300 10200
+F 0 "C2" H 6415 10246 50  0000 L CNN
+F 1 "1u" H 6415 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6338 10050 50  0001 C CNN
+F 3 "~" H 6300 10200 50  0001 C CNN
+	1    6300 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 60E5A022
+P 6300 10350
+F 0 "#PWR019" H 6300 10100 50  0001 C CNN
+F 1 "GND" H 6305 10177 50  0000 C CNN
+F 2 "" H 6300 10350 50  0001 C CNN
+F 3 "" H 6300 10350 50  0001 C CNN
+	1    6300 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR018
+U 1 1 60E5A028
+P 6300 10050
+F 0 "#PWR018" H 6300 9900 50  0001 C CNN
+F 1 "VCC" H 6317 10223 50  0000 C CNN
+F 2 "" H 6300 10050 50  0001 C CNN
+F 3 "" H 6300 10050 50  0001 C CNN
+	1    6300 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60E5A02E
+P 6750 10200
+F 0 "C4" H 6865 10246 50  0000 L CNN
+F 1 "1u" H 6865 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6788 10050 50  0001 C CNN
+F 3 "~" H 6750 10200 50  0001 C CNN
+	1    6750 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 60E5A034
+P 6750 10350
+F 0 "#PWR029" H 6750 10100 50  0001 C CNN
+F 1 "GND" H 6755 10177 50  0000 C CNN
+F 2 "" H 6750 10350 50  0001 C CNN
+F 3 "" H 6750 10350 50  0001 C CNN
+	1    6750 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR028
+U 1 1 60E5A03A
+P 6750 10050
+F 0 "#PWR028" H 6750 9900 50  0001 C CNN
+F 1 "VCC" H 6767 10223 50  0000 C CNN
+F 2 "" H 6750 10050 50  0001 C CNN
+F 3 "" H 6750 10050 50  0001 C CNN
+	1    6750 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 60E5A040
+P 7200 10200
+F 0 "C6" H 7315 10246 50  0000 L CNN
+F 1 "1u" H 7315 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7238 10050 50  0001 C CNN
+F 3 "~" H 7200 10200 50  0001 C CNN
+	1    7200 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 60E5A046
+P 7200 10350
+F 0 "#PWR033" H 7200 10100 50  0001 C CNN
+F 1 "GND" H 7205 10177 50  0000 C CNN
+F 2 "" H 7200 10350 50  0001 C CNN
+F 3 "" H 7200 10350 50  0001 C CNN
+	1    7200 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR032
+U 1 1 60E5A04C
+P 7200 10050
+F 0 "#PWR032" H 7200 9900 50  0001 C CNN
+F 1 "VCC" H 7217 10223 50  0000 C CNN
+F 2 "" H 7200 10050 50  0001 C CNN
+F 3 "" H 7200 10050 50  0001 C CNN
+	1    7200 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 60E5A052
+P 7650 10200
+F 0 "C8" H 7765 10246 50  0000 L CNN
+F 1 "1u" H 7765 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7688 10050 50  0001 C CNN
+F 3 "~" H 7650 10200 50  0001 C CNN
+	1    7650 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR037
+U 1 1 60E5A058
+P 7650 10350
+F 0 "#PWR037" H 7650 10100 50  0001 C CNN
+F 1 "GND" H 7655 10177 50  0000 C CNN
+F 2 "" H 7650 10350 50  0001 C CNN
+F 3 "" H 7650 10350 50  0001 C CNN
+	1    7650 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR036
+U 1 1 60E5A05E
+P 7650 10050
+F 0 "#PWR036" H 7650 9900 50  0001 C CNN
+F 1 "VCC" H 7667 10223 50  0000 C CNN
+F 2 "" H 7650 10050 50  0001 C CNN
+F 3 "" H 7650 10050 50  0001 C CNN
+	1    7650 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 60E5A064
+P 8100 10200
+F 0 "C10" H 8215 10246 50  0000 L CNN
+F 1 "1u" H 8215 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8138 10050 50  0001 C CNN
+F 3 "~" H 8100 10200 50  0001 C CNN
+	1    8100 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR041
+U 1 1 60E5A06A
+P 8100 10350
+F 0 "#PWR041" H 8100 10100 50  0001 C CNN
+F 1 "GND" H 8105 10177 50  0000 C CNN
+F 2 "" H 8100 10350 50  0001 C CNN
+F 3 "" H 8100 10350 50  0001 C CNN
+	1    8100 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR040
+U 1 1 60E5A070
+P 8100 10050
+F 0 "#PWR040" H 8100 9900 50  0001 C CNN
+F 1 "VCC" H 8117 10223 50  0000 C CNN
+F 2 "" H 8100 10050 50  0001 C CNN
+F 3 "" H 8100 10050 50  0001 C CNN
+	1    8100 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 60E5A076
+P 8550 10200
+F 0 "C12" H 8665 10246 50  0000 L CNN
+F 1 "1u" H 8665 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8588 10050 50  0001 C CNN
+F 3 "~" H 8550 10200 50  0001 C CNN
+	1    8550 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 60E5A07C
+P 8550 10350
+F 0 "#PWR045" H 8550 10100 50  0001 C CNN
+F 1 "GND" H 8555 10177 50  0000 C CNN
+F 2 "" H 8550 10350 50  0001 C CNN
+F 3 "" H 8550 10350 50  0001 C CNN
+	1    8550 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR044
+U 1 1 60E5A082
+P 8550 10050
+F 0 "#PWR044" H 8550 9900 50  0001 C CNN
+F 1 "VCC" H 8567 10223 50  0000 C CNN
+F 2 "" H 8550 10050 50  0001 C CNN
+F 3 "" H 8550 10050 50  0001 C CNN
+	1    8550 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 60E5A088
+P 9000 10200
+F 0 "C14" H 9115 10246 50  0000 L CNN
+F 1 "1u" H 9115 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9038 10050 50  0001 C CNN
+F 3 "~" H 9000 10200 50  0001 C CNN
+	1    9000 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR049
+U 1 1 60E5A08E
+P 9000 10350
+F 0 "#PWR049" H 9000 10100 50  0001 C CNN
+F 1 "GND" H 9005 10177 50  0000 C CNN
+F 2 "" H 9000 10350 50  0001 C CNN
+F 3 "" H 9000 10350 50  0001 C CNN
+	1    9000 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR048
+U 1 1 60E5A094
+P 9000 10050
+F 0 "#PWR048" H 9000 9900 50  0001 C CNN
+F 1 "VCC" H 9017 10223 50  0000 C CNN
+F 2 "" H 9000 10050 50  0001 C CNN
+F 3 "" H 9000 10050 50  0001 C CNN
+	1    9000 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 60E5A09A
+P 9450 10200
+F 0 "C16" H 9565 10246 50  0000 L CNN
+F 1 "1u" H 9565 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 10050 50  0001 C CNN
+F 3 "~" H 9450 10200 50  0001 C CNN
+	1    9450 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR053
+U 1 1 60E5A0A0
+P 9450 10350
+F 0 "#PWR053" H 9450 10100 50  0001 C CNN
+F 1 "GND" H 9455 10177 50  0000 C CNN
+F 2 "" H 9450 10350 50  0001 C CNN
+F 3 "" H 9450 10350 50  0001 C CNN
+	1    9450 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR052
+U 1 1 60E5A0A6
+P 9450 10050
+F 0 "#PWR052" H 9450 9900 50  0001 C CNN
+F 1 "VCC" H 9467 10223 50  0000 C CNN
+F 2 "" H 9450 10050 50  0001 C CNN
+F 3 "" H 9450 10050 50  0001 C CNN
+	1    9450 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 60E5A0AC
+P 9900 10200
+F 0 "C18" H 10015 10246 50  0000 L CNN
+F 1 "1u" H 10015 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9938 10050 50  0001 C CNN
+F 3 "~" H 9900 10200 50  0001 C CNN
+	1    9900 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR057
+U 1 1 60E5A0B2
+P 9900 10350
+F 0 "#PWR057" H 9900 10100 50  0001 C CNN
+F 1 "GND" H 9905 10177 50  0000 C CNN
+F 2 "" H 9900 10350 50  0001 C CNN
+F 3 "" H 9900 10350 50  0001 C CNN
+	1    9900 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR056
+U 1 1 60E5A0B8
+P 9900 10050
+F 0 "#PWR056" H 9900 9900 50  0001 C CNN
+F 1 "VCC" H 9917 10223 50  0000 C CNN
+F 2 "" H 9900 10050 50  0001 C CNN
+F 3 "" H 9900 10050 50  0001 C CNN
+	1    9900 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 60E5A0BE
+P 10350 10200
+F 0 "C20" H 10465 10246 50  0000 L CNN
+F 1 "1u" H 10465 10155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 10388 10050 50  0001 C CNN
+F 3 "~" H 10350 10200 50  0001 C CNN
+	1    10350 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR061
+U 1 1 60E5A0C4
+P 10350 10350
+F 0 "#PWR061" H 10350 10100 50  0001 C CNN
+F 1 "GND" H 10355 10177 50  0000 C CNN
+F 2 "" H 10350 10350 50  0001 C CNN
+F 3 "" H 10350 10350 50  0001 C CNN
+	1    10350 10350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR060
+U 1 1 60E5A0CA
+P 10350 10050
+F 0 "#PWR060" H 10350 9900 50  0001 C CNN
+F 1 "VCC" H 10367 10223 50  0000 C CNN
+F 2 "" H 10350 10050 50  0001 C CNN
+F 3 "" H 10350 10050 50  0001 C CNN
+	1    10350 10050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 12250 7800
+$EndSCHEMATC
